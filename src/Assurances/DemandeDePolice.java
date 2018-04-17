@@ -11,5 +11,9 @@ public class DemandeDePolice {
     public boolean collective;
     public String dentalPlan = "";
     public List<String> maladiesGrave = new ArrayList<>();
+
+    public boolean estPourPersonneAgee() {
+        return age > 65;
+    }
 }
 

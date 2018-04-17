@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CalculateurDePoliceParDemande {
 
-    public static Double ObtenirPrix(DemandeDePolice demande) {
+    public static Double obtenirPrix(DemandeDePolice demande) {
         double prix;
 
         if(demande.sexe == "homme"){

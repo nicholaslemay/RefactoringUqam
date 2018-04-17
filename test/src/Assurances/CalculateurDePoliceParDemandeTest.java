@@ -48,6 +48,6 @@ public class CalculateurDePoliceParDemandeTest {
     }
 
     private double PrixPour(DemandeDePolice demande){
-        return CalculateurDePoliceParDemande.ObtenirPrix(demande);
+        return CalculateurDePoliceParDemande.obtenirPrix(demande);
     }
 }
